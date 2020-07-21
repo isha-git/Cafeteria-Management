@@ -1,5 +1,5 @@
 # Cafeteria Management
-The database system has been developed to serve as a centralized system for cafeterias and food-courts. The system maintains order and bill records of the customers to avoid the need of a manual system, as was present in our Institute (<a href="https://www.iiitdmj.ac.in/">IIIT Jabalpur</a>). The ongoing scenario included keeping a manual record of any pending payments and orders.
+The database system has been developed to serve as a centralized system for cafeterias and food-courts. The system maintains order and bill records of the customers to avoid the need of a manual system, as was present in our Institute (<a href="https://www.iiitdmj.ac.in/">IIIT Jabalpur, India</a>). The ongoing scenario included keeping a manual record of any pending payments and orders.
 
 Accordingly, through this project, the developers aimed to create a centralized system where users can access the portal using the Institute's ID and place the orders online to avoid long queues.
 
