@@ -1,0 +1,153 @@
+/*
+github.com/isha-git
+github.com/jagriti04
+github.com/shripriyamaheshwari
+*/
+
+<html>
+  <head>
+    <style type="text/css">
+
+
+   .bgimg {
+   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-image: url("NonVeg.jpg");
+}
+
+   table.meal{font-size:24px;}
+   .btn{
+		background-color :#F7DC6F;
+
+   }
+   body{ font-family: Bradley Hand, cursive	;}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+	font-size:28px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+td{ text-align: center;}
+   </style>
+  </head>
+  <body>
+   <form action = "calculatenon.php" method = "post">
+  <div class="container">
+  <img src="nav.jpg" alt="Navbar" width = "100%" height = "35%">
+  <div class="centered"> <marquee><h1>WELCOME TO NON-VEG SHOP</h1> </marquee></div>
+</div>
+   <div class="bgimg">
+ <table class="meal" align="center">
+  <caption> <h2>  Pick your dish </h2> </caption>
+  <tr>
+    <th> <h3> We Have... </h3> </th> 
+	<th> <h3> Price(Rs.) </h3></th>
+	<th><h3> Quantity </h3></th>
+  </tr>
+ 
+ <tr> 
+     <td>  <b>Anda Bhurji <b><br>
+	 </td> 
+	 <td> <b>30</b></td><td><input type="text" name="Anda Bhurji" value="" size="2"/></td>
+  </tr>
+   <tr> 
+     <td>  <b>Boiled Egg </b><br>
+	 </td> 
+	 <td> <b>20</b> </td>
+	 <td><input type="text" name="Boiled Egg" value="" size="2"/></td>
+  </tr>
+   <tr> 
+     <td><b> Bread Omelette </b><br>
+	 </td> 
+	 <td> <b>25 </b></td>
+	 <<td><input type="text" name="Bread Omelette" value="" size="2"/></td>
+  </tr>
+  
+     <tr> 
+     <td> <b>Chicken Biryani </b><br>
+	 </td> 
+	 <td> <b>50 </b></td>
+	 <td><input type="text" name="Chicken Biryani" value="" size="2"/></td>
+  </tr>
+      <tr> 
+     <td><b>Chicken Momo </b><br>
+	 </td> 
+	 <td> <b>20 </b></td>
+	 <td><input type="text" name="Chicken Momo" value="" size="2"/></td>
+  </tr>
+      <tr> 
+     <td> <b>Chicken Noodles </b><br>
+	 </td> 
+	 <td> <b>45 </b></td>
+	 
+	<td><input type="text" name="Chicken Noodles" value="" size="2"/></td>
+  </tr>
+       <tr> 
+     <td>  <b>Chicken Rice</b><br>
+	 </td> 
+	 <td> <b>45</b> </td><td><input type="text" name="Chicken Rice" value="" size="2"/></td>
+  </tr>	 
+  <tr> 
+     <td><b>Chicken Roll</b><br>
+	 </td> 
+	 <td> <b>30</b> </td>
+	 <td><input type="text" name="Chicken Roll" value="" size="2"/></td>
+  </tr>	
+  <tr> 
+     <td> <b>Egg Roll </b><br>
+	 </td> 
+	 <td> <b>20</b> </td>
+	 <td><input type="text" name="Egg Roll" value="" size="2"/></td>
+	 
+  </tr>	
+  <tr> 
+     <td> <b>Omelette</b><br>
+	 </td> 
+	 <td><b> 20</b> </td>
+	 <td><input type="text" name="Omelette" value="" size="2"/></td>
+  </tr>	
+  <tr> 
+     <td><b> Veg Biryani</b><br>
+	 </td> 
+	 <td> <b>40</b> </td>
+	 <td><input type="text" name="Veg Biryani" value="" size="2"/></td>
+  </tr>	
+  <tr> 
+     <td> <b>Veg Manchurian</b><br>
+	 </td> 
+	 <td> <b>25</b> </td>
+	 <td><input type="text" name="Veg Manchurian" value="" size="2"/></td>
+  </tr>	
+  <tr> 
+     <td> <b>Veg Momo </b><br>
+	 </td> 
+	 <td><b> 10 </b></td>
+	 <td><input type="text" name="Veg Momo" value="" size="2"/></td>
+  </tr>	
+  <tr> 
+     <td> <b>Veg Noodles</b><br>
+	 </td> 
+	 <td><b> 35</b> </td>
+	 <td><input type="text" name="Veg Noodles" value="" size="2"/></td>
+  </tr>
+ <tr> 
+     <td> <b>Veg Rice</b><br>
+	 </td> 
+	 <td> <b>35 </b></td>
+	 <td><input type="text" name="Veg Rice" value="" size="2"/></td>
+  </tr>   
+  </table> </br> </br>
+ <center> <button class  = "btn" name = "submit" type="submit" value="Place Order" style="font-size : 20px;"><b>Place Order</b></button></center>
+</div>
+</form>
+ </body>
+</html>
