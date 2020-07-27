@@ -23,4 +23,4 @@ After the dining place has been selected, the corresponding page will appear whi
 
 The system has been set up using HTML, PHP and MySQL database. By looking at the SQL queries (PHP files), you can create your own database provided that you keep the name of the columns same as the code (alternatively change the name at both the places).
 
-The files can be used as a template to create your own database project. Please keep all the files (HTML, PHP, all images) in the same folder, or change the path iof the files according to their respective folders.
+The files can be used as a template to create your own database project. Please keep all the files (HTML, PHP, all images) in the same folder, or change the path of the files according to their respective folders.
